@@ -76,6 +76,7 @@ h1 .star-icon {
     visibility: hidden;
     opacity: 0;
     height: 0;
+    margin: 0;
     transition: opacity 0.4s, easeout;
 }
 .section.active p {
@@ -83,6 +84,7 @@ h1 .star-icon {
     visibility: visible;
     opacity: 1;
     height: auto;
+    margin: 16px 0;
 }
 
 .section .icon-plus {
