@@ -22,6 +22,7 @@ h3 {
     font-weight: 600;
     color: hsl(292, 42%, 14%);
     letter-spacing: 0.6px;
+    margin: 28px 0;
 }
 
 h3:hover {
@@ -83,11 +84,15 @@ h1 .star-icon {
     margin: 0;
     transition: opacity 0.4s, easeout;
 }
+.section.active h3 {
+    margin: 16px 0;
+}
 .section.active p {
     visibility: visible;
     opacity: 1;
     height: auto;
     margin: 16px 0;
+    line-height: 1.5;
 }
 
 .section .icon-plus {
@@ -129,6 +134,7 @@ h1 .star-icon {
     }
     h3 {
         letter-spacing: normal;
+        margin: 16px 0;
     }
     .background-mobile {
         display: block;
@@ -154,7 +160,6 @@ h1 .star-icon {
         margin-bottom: 8px;
     }
     .section.active p {
-        line-height: 1.5;
         font-size: 14.5px;
     }
     .d-flex {
