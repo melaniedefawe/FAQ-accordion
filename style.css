@@ -37,6 +37,10 @@ h1 .star-icon {
     padding-top: 7px;
 }
 
+.background-mobile{
+    display: none;
+}
+
 .d-flex {
     display: flex;
     justify-content: space-between;
@@ -63,6 +67,7 @@ h1 .star-icon {
     right: 10%;
     border-radius: 20px;
     padding: 20px 30px;
+    box-shadow: 3px 3px 6px 4px hsl(0deg 0% 0% / 6%);
 }
 
 .section {
@@ -72,7 +77,6 @@ h1 .star-icon {
     border-bottom: none;
 }
 .section p {
-    /*display: none;*/
     visibility: hidden;
     opacity: 0;
     height: 0;
@@ -80,7 +84,6 @@ h1 .star-icon {
     transition: opacity 0.4s, easeout;
 }
 .section.active p {
-    /*display: block;*/
     visibility: visible;
     opacity: 1;
     height: auto;
@@ -106,7 +109,7 @@ h1 .star-icon {
     font-size: 11px; 
     text-align: center; 
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     left: 10%;
@@ -117,4 +120,44 @@ h1 .star-icon {
     color: hsl(228, 45%, 44%); 
 }
 
-
+@media screen and (max-width: 550px) {
+    h1 {
+        display: flex;
+        align-items: center;
+        font-size: 33px;
+        margin-bottom: 8px;
+    }
+    h3 {
+        letter-spacing: normal;
+    }
+    .background-mobile {
+        display: block;
+    }
+    .background-desktop {
+        display: none;
+    }
+    h1 .star-icon {
+        margin-right: 18px;
+    }
+    h1 .star-icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    .container {
+        width: 75vw;
+        top: 15%;
+        left: 10px;
+        right: 10px;
+        border-radius: 10px;
+    }
+    .section.active h3 {
+        margin-bottom: 8px;
+    }
+    .section.active p {
+        line-height: 1.5;
+        font-size: 14.5px;
+    }
+    .d-flex {
+        gap: 20px;
+    }
+}
