@@ -14,18 +14,18 @@ h1 {
     margin: 10px 0;
 }
 
-h3, p {
+h2, p {
     font-size: 16px;
 }
 
-h3 {
+h2 {
     font-weight: 600;
     color: hsl(292, 42%, 14%);
     letter-spacing: 0.6px;
     margin: 28px 0;
 }
 
-h3:hover {
+h2:hover {
     color: #AD28EB;
 }
 
@@ -132,7 +132,7 @@ h1 .star-icon {
         font-size: 33px;
         margin-bottom: 8px;
     }
-    h3 {
+    h2 {
         letter-spacing: normal;
         margin: 16px 0;
     }
@@ -156,7 +156,7 @@ h1 .star-icon {
         right: 10px;
         border-radius: 10px;
     }
-    .section.active h3 {
+    .section.active h2 {
         margin-bottom: 8px;
     }
     .section.active p {
