@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Solution URL: [](https://fementor-faq.netlify.app/)
+- [Live Solution URL](https://fementor-faq.netlify.app/)
 
 ## My process
 
@@ -46,7 +46,7 @@ I did not encounter many difficulties with the challenge in itself and strived t
 
 ### Useful resources
 
-- [](https://stackoverflow.com/questions/9185434/using-svg-as-background-image) - This helped me understand how to make sure my svg element would take the whole width page, and not keep a max width of 1440px. 
+- [Adjusting SVG to full view width](https://stackoverflow.com/questions/9185434/using-svg-as-background-image) - This helped me understand how to make sure my svg element would take the whole width page, and not keep a max width of 1440px. 
 
 ## Author
 
